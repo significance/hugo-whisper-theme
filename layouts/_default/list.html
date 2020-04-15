@@ -4,14 +4,12 @@
 
 {{ define "main" }}
 
-<span class="overview">Overview</span>
-<h1 class="title">{{ .Title }}</h1>
+<h1 class="title">
+  <img src="{{ .Site.Params.homepage_image}}"/>
+</h1>
+
 <div class="content">
   {{ .Content }}
 </div>
-
-{{ range.Pages }}
-{{ .Render "summary" }}
-{{ end }}
 
 {{ end }}

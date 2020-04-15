@@ -1,0 +1,60 @@
+_overlay.cssa.mc-field-group {
+    margin-bottom: 44px;
+}
+
+
+.mc-field-group{
+    padding-bottom: 17px;
+}
+
+.mc-field-group .email{
+    padding: 7px;
+    margin-right: 10px;
+    top: -1px;
+    position: relative;
+    border: 1px solid rgb(238, 238, 238);
+}
+
+.mc-field-group .email::placeholder{
+    font-style: italic;
+}
+
+.mc-field-group .button{
+    padding: 9px;
+    position: relative;
+    top: -1px;
+    padding-top: 10px;
+}
+
+
+#mc_embed_signup div.response {
+    margin: auto !important;
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+
+    padding: 5px 10px !important;
+    background-color: lightgreen !important;
+    font-weight: bold !important;
+    z-index: 1 !important;
+    color: black !important;
+    width:50% !important;
+}
+
+#mc_embed_signup div.mce_inline_error {
+    margin: auto !important;
+    margin-top: 20px !important;
+    padding: 5px 10px !important;
+    background-color: orange !important;
+    font-weight: bold !important;
+    z-index: 1 !important;
+    color: black !important;
+    width:50% !important;
+}
+
+.title{
+    margin-bottom: 47px;
+}
+
+.mergeRow-gdpr, .content__gdpr{
+    display: none !important;
+}
